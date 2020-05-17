@@ -1,6 +1,6 @@
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
-class JOptionPaneSol {
+class Employee {
 	private static String firstName;
 	private static String surname;
 	private static int yearsToRetirement;
@@ -20,7 +20,7 @@ class JOptionPaneSol {
 
 	public static void main(String[] args) {
 		// creae a new employee
-		JOptionPaneSol employee = new JOptionPaneSol();
+		Employee employee = new Employee();
 
 		String[] textLabels = {"First Name", "Surname", "Years To Retirement", "Monthly Savings", "Annual Savings", "Total Savings"};
 		System.out.println("");
